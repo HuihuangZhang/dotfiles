@@ -1,0 +1,1 @@
+nnoremap gI <Cmd>lua require('vscode-neovim').call('editor.action.goToImplementation')<CR>
