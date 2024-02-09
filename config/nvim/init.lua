@@ -1,12 +1,7 @@
 
 require('core.lazy')
 require('core.keymap')
-
--- Mappings <Leader> as whitespace
-vim.g.mapleader = ' '
-vim.opt.ignorecase = true
--- set unname register as system clipboard
-vim.opt.clipboard = "unnamedplus"
+require('core.options')
 
 if vim.g.vscode then
     -- VSCode extension
