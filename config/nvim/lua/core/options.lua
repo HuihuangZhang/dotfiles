@@ -1,3 +1,4 @@
+-- print('loading from options.lua')
 -- Mappings <Leader> as whitespace
 vim.g.mapleader = ' '
 

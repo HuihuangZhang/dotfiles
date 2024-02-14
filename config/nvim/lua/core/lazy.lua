@@ -1,6 +1,5 @@
 -- Bootstrap lazy.nvim
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
-print('lazy path:', lazypath)
 if not vim.loop.fs_stat(lazypath) then
   vim.fn.system({
     "git",

@@ -1,7 +1,7 @@
 
+require('core.options')
 require('core.lazy')
 require('core.keymap')
-require('core.options')
 
 if vim.g.vscode then
     -- VSCode extension
