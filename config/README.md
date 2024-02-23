@@ -10,17 +10,17 @@ This repo is just for config files, then I can manage them in github.
 git clone <this-repo>
 mkdir ~/.config
 cd ~/.config
-ln -s <this-repo>/nvim
+ln -s <this-repo>/config/nvim
 ```
 
 ### shell
 
 ```zsh
 git clone <this-repo>
-ln -s <this-repo>/shell ~/.config/shell
+ln -s <this-repo>/config/shell $HOME/.config/shell
 ```
 
-编辑 `~/.zshrc` 文件，引入 `init.zsh` 文件
+编辑 `~/.zshrc` 文件，引入 `init.zsh` 文件，最好在脚本第一行加入。
 
 ``` zsh
 source $HOME/.config/shell/init.zsh
