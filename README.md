@@ -31,3 +31,4 @@ source $HOME/.config/shell/init.zsh
 good reference:
 
 1. [nvim config](https://github.com/brainfucksec/neovim-lua/tree/main/nvim)
+2. [ohmyzsh Plugin](https://github.com/ohmyzsh/ohmyzsh/wiki/Plugins)

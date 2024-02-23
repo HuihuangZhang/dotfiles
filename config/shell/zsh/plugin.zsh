@@ -1,5 +1,7 @@
 source ~/.zinit/bin/zinit.zsh
 
+plugins=(git ruby rails)
+
 # 快速目录跳转
 zinit ice lucid wait='1'
 # zinit light skywind3000/z.lua
