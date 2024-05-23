@@ -39,6 +39,9 @@ zinit light sindresorhus/pure
 # 强大的 tab 补全插件
 zinit light Aloxaf/fzf-tab
 
+# 快速跳转文件目录的插件
+zinit load agkozak/zsh-z
+
 # 一个更牛逼的 cat，但一直安装不成功。算了
 # zinit ice as"command" from"gh-r" mv"bat* -> bat" pick"bat/bat"
 # zinit light sharkdp/bat

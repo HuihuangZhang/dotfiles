@@ -1,4 +1,4 @@
-cdmk() {
+mkcd() {
     mkdir -p $@ && cd ${@:$#}
 }
 
