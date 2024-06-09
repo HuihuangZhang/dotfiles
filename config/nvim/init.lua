@@ -5,7 +5,7 @@ require('core.keymap')
 
 if vim.g.vscode then
     -- VSCode extension
-    require('vscode.keymap')
+    require('vscode_nvim.keymap')
     -- vim.cmd[[source $HOME/.config/nvim/lua/vscode/settings.vim]]
 else
     -- ordinary Neovim
